@@ -44,7 +44,7 @@ export default function Page() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h2 className="text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl">
-                About NewsSuno
+                About NewsTalk
               </h2>
               <p className="mx-auto mt-4 max-w-2xl text-lg text-neutral-600">
                 Your trusted source for the latest news and updates from across India

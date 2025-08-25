@@ -4,7 +4,7 @@ import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'News Suno',
+  title: 'News Talk',
   description: 'Latest news from across India in multiple languages',
   generator: 'Next.js',
   viewport: {
