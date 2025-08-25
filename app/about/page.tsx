@@ -20,7 +20,7 @@ export default function AboutPage() {
 
         {/* Content Section */}
         <div className="w-full lg:w-2/3">
-          <h1 className="text-4xl font-bold mb-6 text-center lg:text-left">About News Suno</h1>
+          <h1 className="text-4xl font-bold mb-6 text-center lg:text-left">About News Talk</h1>
           <div className="space-y-4 text-muted-foreground">
             <p>
               Welcome to NewsTalk, your trusted source for the latest news and updates from around the world. 

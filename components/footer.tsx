@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-10 md:grid-cols-4">
           {/* About Section */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">About News Suno</h3>
+            <h3 className="text-lg font-semibold">About News Talk</h3>
             <p className="text-sm text-neutral-300">
               Bringing you the latest and most relevant news from across India in multiple languages. 
               Stay informed with real-time updates from trusted sources.
@@ -53,7 +53,7 @@ export default function Footer() {
                   About Us
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="#cities" className="text-sm text-neutral-300 hover:text-white transition-colors">
                   Cities
                 </Link>
@@ -62,7 +62,7 @@ export default function Footer() {
                 <Link href="#languages" className="text-sm text-neutral-300 hover:text-white transition-colors">
                   Languages
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="#contact" className="text-sm text-neutral-300 hover:text-white transition-colors">
                   Contact Us
@@ -93,9 +93,9 @@ export default function Footer() {
             <h3 className="text-lg font-semibold">Contact Us</h3>
             <address className="mt-4 not-italic text-sm text-neutral-300 space-y-2">
               <p>123 News Street, Media City</p>
-              <p>Mumbai, Maharashtra 400001</p>
-              <p>Email: info@newssuno.com</p>
-              <p>Phone: +91 98765 43210</p>
+              <p>Bhopal, Madhya Pradesh 462008</p>
+              <p>Email: info@newstalk.com</p>
+              <p>Phone: +91 xxxxx xxxxx</p>
             </address>
           </div>
         </div>
@@ -104,7 +104,7 @@ export default function Footer() {
         <div className="mt-12 border-t border-neutral-800 pt-8">
           <div className="flex flex-col items-center justify-between space-y-4 md:flex-row md:space-y-0">
             <p className="text-sm text-neutral-400">
-              &copy; {currentYear} NewsSuno. All rights reserved.
+              &copy; {currentYear} NewsTalk. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <Link href="/privacy" className="text-sm text-neutral-400 hover:text-white transition-colors">

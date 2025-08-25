@@ -39,13 +39,13 @@ export default function Navbar() {
             <Link href="/" className="flex items-center">
               <img
                 src="/news-headline-placeholder.png"
-                alt="NewsSuno logo"
+                alt="NewsTalk logo"
                 className="h-8 w-8 rounded-md"
                 width={32}
                 height={32}
                 loading="lazy"
               />
-              <h1 className="ml-2 text-lg font-semibold tracking-tight sm:text-xl">News Suno</h1>
+              <h1 className="ml-2 text-lg font-semibold tracking-tight sm:text-xl">News Talk</h1>
             </Link>
           </div>
 
