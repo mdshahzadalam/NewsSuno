@@ -119,7 +119,19 @@ export default function Footer() {
             </div>
           </div>
           <div className="mt-4 text-center text-xs text-neutral-500">
-            <p>Made with ❤️ in India</p>
+            {/* <p>Made with ❤️ in India</p> */}
+            <p>
+  Made with ❤️ by{" "}
+  <a
+    href="https://www.linkedin.com/in/mdshahzadalam" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="text-neutral-400 hover:text-white transition-colors"
+  >
+    Shahzad
+  </a>
+</p>
+
           </div>
         </div>
       </div>
